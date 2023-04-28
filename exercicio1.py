@@ -5,6 +5,7 @@
     Considere 6.0 a média mínima para aprovação.
 '''
 
+
 def realizaMedia(nota1, nota2):
     media = (nota1 + nota2) / 2
     if media >= 6.0:
@@ -12,9 +13,7 @@ def realizaMedia(nota1, nota2):
     else:
         print(f"Você foi reprovado com {media}")
 
+
 nota1 = float(input("Informe a primeira nota: "))
-nota2 = float(input("Informe a segunda nota: ")) 
+nota2 = float(input("Informe a segunda nota: "))
 realizaMedia(nota1, nota2)
-
-    
-
