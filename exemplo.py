@@ -15,8 +15,7 @@ def calcular_area_triangulo(base, altura):
 # Função que calcula a área de um retângulo (retorna o resultado)
 def calcular_area_retangulo(base, altura):
     area = base * altura
-    return area
-
+    return area # Para a execução (se não printar, não vai mostrar o resultado)
 
 while True:     # loop infinito
     print('1 - Verificar se um numero é Par ou Impar')
