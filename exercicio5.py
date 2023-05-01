@@ -6,13 +6,16 @@
     Área = π * r ** 2
     Perímetro = π * 2 * r
 '''
+import math
+pi = math.pi
 
-pi = 3.14
-
-def area (raio):
+def area(raio):
     areaCirculo = pi * raio ** 2
     return areaCirculo
 
 def perimetro(raio):
     perimetroCirculo = pi * 2 * raio
-    return perimetro
+    return perimetroCirculo
+
+raio = float(input("Informe o valor do raio: "))
+print(f"A área do círculo é {round(area(raio), 2)} e o perímetro é {round(perimetro(raio), 2)}")
