@@ -19,9 +19,6 @@
     o programa com a opção 5
 '''
 
-from optparse import OptionContainer
-
-
 def menuOpcoes():
     print("Bem vindo(a) à Calculadora Python! \n Escolha uma opção abaixo:")
     print("1 - Adição \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão \n 5 - Sair do programa")
